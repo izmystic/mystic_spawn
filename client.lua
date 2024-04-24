@@ -26,6 +26,7 @@ local function regsiterSpawnMenu()
     lib.registerContext({
         id = 'spawn_menu',
         title = 'Spawn Select',
+        canClose = false,
         options = locations
     })
 end
