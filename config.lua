@@ -1,4 +1,5 @@
 Config = {}
+Config.HandleOpen = false --enable to open spawn menu on player spawn (false is for export to open in)
 Config.Locations = {
     {
         title = 'Legion Square',

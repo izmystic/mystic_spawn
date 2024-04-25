@@ -41,3 +41,9 @@ local function openSpawnMenu()
 end
 
 exports('openSpawnMenu', openSpawnMenu)
+
+if Config.HandleOpen then
+    AddEventHandler('playerSpawned', function()
+        openSpawnMenu()
+    end)
+end
