@@ -43,7 +43,7 @@ end
 exports('openSpawnMenu', openSpawnMenu)
 
 if Config.HandleOpen then
-    AddEventHandler('playerSpawned', function()
+    AddEventHandler('onClientMapStart', function()
         openSpawnMenu()
     end)
 end
